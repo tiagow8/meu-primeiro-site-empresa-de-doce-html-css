@@ -1,0 +1,470 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #ff5757;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: pacifico;
+}
+
+#menu1 {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  float: left;
+}
+
+#menu1 li {
+  display: inline;
+}
+
+#menu1 li a {
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  color: #ccac93;
+  text-transform: uppercase;
+}
+
+#menu1 li a:hover {
+  border-bottom: 3px solid #ff9933;
+}
+
+#titulo {
+  font: 41px Museo;
+  color: #4a2f21;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 10px 4 15px 0;
+  background: url(img/titulo.png) center center no-repeat;
+}
+
+@media (min-width: 480px) and (max-width: 768px) .grid {
+  max-width: 720px;
+}
+
+.grid {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  background: #ffd9a4;
+  font-family: PT Sans;
+}
+
+.centro {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  border: 0px;
+  text-decoration: none;
+  outline: 0;
+  font-size: 100%;
+}
+
+body {
+  background: url(img/home_bg.png) top center no-repeat #ffd9a4;
+}
+
+@media screen and (max-width: 768px) #sobre {
+  padding: 100px 0 80px;
+}
+
+#sobre h1 {
+  padding-left: 50px;
+  margin-bottom: 60px !important;
+}
+
+#sobre {
+  background: #ffffff;
+  padding: 100px 100px 80px;
+}
+
+#sobre .margem {
+  padding: 0 20px;
+}
+
+@media (min-width: 480px) and (max-width: 768px) .grid *[class*="col-"] {
+  float: none;
+  width: auto;
+  clear: both;
+  display: block;
+}
+
+*[class*="col-"] {
+  margin-left: 0.83333333333333%;
+  margin-right: 0.83333333333333%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  float: left;
+  display: block;
+}
+
+.col-5 {
+  width: 40%;
+}
+
+#sobre .texto {
+  font-size: 16px !important;
+  color: #4a2f21;
+  text-align: justify;
+}
+
+.texto {
+  font: 11px Open Sans;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#sobre .texto p {
+  margin: 15px 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.center {
+  text-align: center;
+}
+
+.grid img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  zoom: 1;
+  vertical-align: bottom;
+}
+
+.col-1 {
+  width: 6.6666666666667%;
+}
+
+#sobre h1 {
+  padding-left: 50px;
+  margin-bottom: 60px !important;
+}
+
+.conteudo h1 {
+  font-size: 30px;
+  color: #4a2f21;
+  text-shadow: 1px 2px #e5bfb0;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 !important;
+  color: #fff;
+  line-height: 100% !important;
+  font-family: Museo;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.col-4 {
+  width: 31.666666666667%;
+}
+
+.col-6 {
+  width: 48.333333333333%;
+}
+
+.col_12 {
+  width: 98.333333333333%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#sobre hr {
+  border-top: 1px solid #c9bdb7;
+}
+
+hr {
+  clear: both;
+  border-bottom: 0;
+  border-top: 1px dotted #ccc;
+  border-right: 0;
+  border-left: 0;
+  margin: 30px 0;
+  min-height: 0;
+  height: 1px;
+}
+
+.col_6 {
+  width: 48.333333333333%;
+}
+
+element.style {
+  font-size: 1rem;
+}
+
+#sobre .quadrado {
+  border: 1px dashed #4b2411;
+  padding: 20px 30px;
+  border-radius: 10px;
+  min-height: 125px;
+  margin-top: 40px;
+}
+
+#sobre .quadrado .titulo {
+  font: 17px Museo;
+  text-transform: uppercase;
+  color: #6d4936;
+  margin-bottom: 15px;
+}
+
+.col-10 {
+  width: 81.666666666667%;
+}
+
+.grid {
+  max-width: 95% !important;
+}
+
+#bedoce .chamada {
+  background: url(img/Azul\e\Espirais\Rosas\Massagem\Logotipo\\(1\).png) 50%
+    30px no-repeat;
+  background-size: 70%;
+  padding-top: 140px;
+  text-align: center;
+}
+
+*[class*="col_"].nomargin {
+  margin: 0;
+}
+
+.col_6.nomargin {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) .grid {
+  max-width: 100% !important;
+}
+
+.grid {
+  max-width: 95% !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #f9aa3c;
+}
+
+::selection {
+  background: #604333;
+  color: #fff;
+}
+
+#bedoce {
+  background: #ffebd0;
+}
+
+#bedoce .chamada {
+  background: url(img/coracoes.png) 50% 30px no-repeat;
+  background-size: 70%;
+  padding-top: 140px;
+  text-align: center;
+}
+
+#canal {
+  background: #ffbd4a;
+}
+
+element.style {
+  background-color: #593526;
+  margin-top: 30px;
+}
+
+@media (min-width: 0) and (max-width: 768px) #canal .preview .show {
+  margin-bottom: 20px;
+}
+
+.show {
+  display: block;
+}
+
+.show {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  background: #fff;
+  display: block;
+  z-index: 2;
+}
+
+.sociais center {
+  display: inline-block;
+}
+
+footer .sociais a {
+  margin: 0 2px;
+  vertical-align: top !important;
+}
+
+a {
+  color: #4d99e0;
+  outline: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 60px;
+}
+
+footer .col_12 {
+  margin-bottom: 50px;
+}
+
+footer ul {
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 20px 25px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+footer ul li:first-child {
+  background: none !important;
+  padding-left: 0;
+}
+
+@media (min-width: 0) and (max-width: 768px) footer ul li {
+  display: block;
+  background: none;
+  padding: 3px 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 50px;
+  background: url(img/rodape_barra.png) left center no-repeat;
+}
+
+li {
+  margin: 0;
+}
+
+footer ul li a {
+  color: #694817;
+  font: 13px Museo;
+  text-transform: uppercase;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 0) and (max-width: 768px) footer .selo_nestle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.right {
+  text-align: right;
+}
+
+.col_5 {
+  width: 40%;
+}
+
+footer .assinatura {
+  font: 15px Open Sans;
+  padding-top: 23px;
+}
+
+footer .col_12 {
+  margin-bottom: 50px;
+}
+
+.col_12 {
+  width: 98.333333333333%;
+}
+
+footer .assinatura a {
+  color: #604333;
+  font-weight: bold;
+}
+
+#canal a {
+  background: #d5a357;
+  color: #442819;
+  text-transform: uppercase;
+  font: 11px Museo;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 80px;
+  border: 1px solid #d5a357;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
